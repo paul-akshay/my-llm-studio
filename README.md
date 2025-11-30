@@ -2,6 +2,23 @@
 
 A personal playground for wrangling Large Language Models \(LLMs\) into doing weird, wonderful, and occasionally useful things.
 
+
+## Just in case you want to try it out yourself
+
+1. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. **Set up your OpenAI API key:**
+   
+   Create a `.env` file in the project root
+   ```
+   OPENAI_API_KEY=your_openai_api_key_here
+   ```
+   
+   Replace `your_openai_api_key_here` with your actual OpenAI API key.
+
 ## Current Projects
 
 ### OrderBot - Pizza Restaurant Chatbot
@@ -14,22 +31,6 @@ An interactive chatbot application demonstrating LLM capabilities for conversati
 - Handles menu items, toppings, drinks, and sides
 - Collects delivery/pickup information
 - Error handling for API issues
-
-## Just in case you want to try it out yourself
-
-1. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-2. **Set up your OpenAI API key:**
-   
-   Create a `.env` file in the project root (or copy from `.env.example`):
-   ```
-   OPENAI_API_KEY=your_openai_api_key_here
-   ```
-   
-   Replace `your_openai_api_key_here` with your actual OpenAI API key.
 
 ## Running the OrderBot Application
 
